@@ -2,7 +2,7 @@ package com.basic.myspringboot.controller;
 
 import com.basic.myspringboot.entity.User;
 import com.basic.myspringboot.exception.BusinessException;
-import com.basic.myspringboot.UserRepository;
+import com.basic.myspringboot.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
