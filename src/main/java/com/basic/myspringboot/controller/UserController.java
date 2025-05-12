@@ -1,7 +1,7 @@
 package com.basic.myspringboot.controller;
 
 import com.basic.myspringboot.entity.User;
-import com.basic.myspringboot.repository.UserRepository;
+import com.basic.myspringboot.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
