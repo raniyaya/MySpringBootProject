@@ -54,7 +54,7 @@ class CustomerRepositoryTest {
     }
 
     @Test
-    //@Disabled
+        //@Disabled
     void testFindBy() {
         Optional<Customer> optionalCustomer = customerRepository.findById(1L);
         //assertThat(optionalCustomer).isNotEmpty();
