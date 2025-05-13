@@ -1,6 +1,5 @@
 package com.basic.myspringboot.repository;
 
-import com.basic.myspringboot.CustomerRepository;
 import com.basic.myspringboot.entity.Customer;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -55,7 +54,7 @@ class CustomerRepositoryTest {
     }
 
     @Test
-    //@Disabled
+        //@Disabled
     void testFindBy() {
         Optional<Customer> optionalCustomer = customerRepository.findById(1L);
         //assertThat(optionalCustomer).isNotEmpty();
